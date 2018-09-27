@@ -1,0 +1,12 @@
+name: myapp
+version: "1.0"
+author: Aaron Bot <aaron.bot@robot.com>
+about: Does awesome things
+subcommands:
+    - hello_there:
+        about: responds with the correct response
+    - install:
+        about: install stuff
+        args:
+            - installs:
+                help: Decides what to install
